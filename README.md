@@ -1,4 +1,4 @@
-# LangGraphAgentSoccer
+# LangGraph-Agent
 Studenti: *Angelo Frasca, Nunzio Fornitto, Fernando Riccioli*
 
 ## Introduzione
