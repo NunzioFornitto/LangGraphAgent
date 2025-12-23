@@ -2,7 +2,7 @@
 Studenti: *Angelo Frasca, Nunzio Fornitto, Fernando Riccioli*
 
 ## Introduzione
-È stato realizzato un agente per la creazione di post per un blog di calcio. L'agente realizza una bozza di articolo con i pronostici per la prossima giornata della Serie A e formula tre idee per post futuri. L'agente è stato realizzato tramite LangGraph e implementa quattro nodi: caricamento dei dati, generazione della bozza, riflessione e valutazione.   
+È stato realizzato un agente per la creazione di post per un blog di calcio. L'agente realizza una bozza di articolo con i pronostici per la prossima giornata della Serie A e formula tre idee per post futuri. L'agente è stato realizzato tramite   LangGraph e implementa quattro nodi: caricamento dei dati, generazione della bozza, riflessione e valutazione.   
 
 ## Flusso dell'Agente
 - **Nel nodo di caricamento dei dati**, l'agente utilizza dei tool per ottenere i dati della Serie A da API. I tool sono implementati tramite decorator e vengono chiamati in maniera statica tramite `nome_tool.invoke("descrizione")`. Tutti i tool comprendono docstring, un parametro di input e il type int per l'output. Si è preferito utilizzare i tool invocati staticamente per rimanere coerenti con il flusso di funzionamento del programma. I dati che si ottengono tramite i tool sono fondamentali per l'esecuzione del programma e quindi si è preferito questo metodo piuttosto dell'utilizzo del binding.
