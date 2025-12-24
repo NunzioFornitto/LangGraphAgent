@@ -1,5 +1,5 @@
 # LangGraph-Agent
-Studenti: *Angelo Frasca, Nunzio Fornitto, Fernando Riccioli*
+Studenti: *Angelo Frasca, Nunzio Fornitto, Fernando Riccioli*  
 
 ## Introduzione
 È stato realizzato un agente per la creazione di post per un blog di calcio. L'agente realizza una bozza di articolo con i pronostici per la prossima giornata della Serie A e formula tre idee per post futuri. L'agente è stato realizzato tramite   LangGraph e implementa quattro nodi: caricamento dei dati, generazione della bozza, riflessione e valutazione.   
